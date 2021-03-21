@@ -62,7 +62,7 @@ function Header(props) {
         <div className="container">
           {img.map((val, key) => {
             return (
-              <div className="item">
+              <div key={val} className="item">
                 <img key={key} className="randomImg" src={val} alt=""></img>
               </div>
             );

@@ -42,16 +42,14 @@ function BreedGrid() {
           {randImg.map((val, key) => {
             let src = randImg[key] !== undefined ? randImg[key] : null;
             return (
-              <>
-                <div key={`div-${val}`} className="item">
-                  <img
-                    key={`img-${val}`}
-                    className="randomImg"
-                    src={src}
-                    alt=""
-                  ></img>
-                </div>
-              </>
+              <div key={`div-${val}`} className="item">
+                <img
+                  key={`img-${val}`}
+                  className="randomImg"
+                  src={src}
+                  alt=""
+                ></img>
+              </div>
             );
           })}
         </section>
