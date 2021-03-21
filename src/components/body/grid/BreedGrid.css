@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  cursor: pointer;
+  margin: 20px;
+  text-align: center;
+}
+
+.randomImg {
+  height: 100px;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.subHeading {
+  margin: 10px 0 0 20px;
+}
+
+.subBreed {
+  display: flex;
+}

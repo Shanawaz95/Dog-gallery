@@ -1,0 +1,14 @@
+.search-wrapper {
+  text-align: center;
+  margin: 20px;
+}
+
+.search-inp {
+  width: 50%;
+  height: 40px;
+  background: lightgray;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 20px;
+  letter-spacing: 2px;
+}

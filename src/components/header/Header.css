@@ -1,0 +1,33 @@
+.header-wrapper {
+  background-color: rgb(111, 160, 201);
+  text-align: center;
+  height: 50px;
+  margin: auto;
+  padding: 10px;
+}
+
+.header-text {
+  display: inline-block;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.form-item {
+  margin: 30px;
+  background: lightgray;
+  height: 30px;
+  width: 150px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
