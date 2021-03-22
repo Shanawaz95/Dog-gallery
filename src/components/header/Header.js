@@ -15,7 +15,7 @@ function Header(props) {
     margin: "0px 20px",
   };
   const [breed, setBreed] = useState("");
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
   const [modalOpen, setModalOpen] = useState(false);
   const [img, setImg] = useState([]);
 
